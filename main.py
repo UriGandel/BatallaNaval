@@ -25,7 +25,7 @@ def crear_tablero() -> list[list[str]]:
 
 
 def mostrar_tablero(tablero: list[list[str]], ocultar_barcos: bool = False) -> None:
-    #* Imprime el tablero
+    #* Imprime las columnas
     print("  " + " ".join(str(indice) for indice in range(N)))
     for fila in range(N):
         #? Imprime el número de fila al inicio de cada fila
